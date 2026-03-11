@@ -38,7 +38,7 @@ bibtex-to-mbox my_library.bib my_archive.mbox
 ```
 You will see the following output as the tool processes your file:
 
-```bash
+```txt
 Found 150 entries in 'my_library.bib'. Starting conversion...
 Converting entries: 100%|██████████| 150/150 [00:00<00:00, 850.12entry/s]
 
