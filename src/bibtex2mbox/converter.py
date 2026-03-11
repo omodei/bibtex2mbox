@@ -1,4 +1,4 @@
-# src/bibtex2mbox/converter.py
+#!/usr/bin/env python
 
 import bibtexparser
 import mailbox
