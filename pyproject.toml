@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bibtex2mbox"  # IMPORTANT: This must be unique on PyPI!
+version = "1.0.0"
+authors = [
+  { name="YNicola Omodei", email="nicola.omodei@stanford.edu" },
+]
+description = "A utility to convert BibTeX files to mbox archives."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "bibtexparser",
+    "tqdm",
+    "pylatexenc",
+]
+
+[project.urls]
+Homepage = "https://github.com/omodei/bibtex2mbox"  # Link to your GitHub repo
+Issues = "https://github.com/omodei/bibtex2mbox/issues"
+
+# This section creates the command-line script
+[project.scripts]
+bibtex2mbox = "bibtex2mbox.cli:main"
