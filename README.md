@@ -2,7 +2,7 @@
 
 A command-line utility to convert a BibTeX (`.bib`) file into an `mbox` email archive. Each BibTeX entry becomes an email message, making your reference library searchable and readable in any standard email client.
 
-[![PyPI version](https://badge.fury.io/py/bibtex2mbox.svg)](https://badge.fury.io/py/bibtex2mbox) <!-- You can add this badge after publishing -->
+[PyPI version](https://badge.fury.io/py/bibtex2mbox.svg)](https://badge.fury.io/py/bibtex2mbox) 
 
 ## Features
 
