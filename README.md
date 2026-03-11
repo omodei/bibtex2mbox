@@ -31,10 +31,13 @@ bibtex2mbox [INPUT_BIB_FILE] [OUTPUT_MBOX_FILE]
 ```
 
 ### Example
+
+You can use any BibTeX file, as long as it is in the correct format. For example you can download one from the [ADS library](https://ui.adsabs.harvard.edu). **Make sure you also export the abstract by selecting BibTeX ABS format from the menu**. Unfortunately ADS allows only 500 entries at the time, so you will have to download large libraries with multiple downloads. The good news is that *bibtex2mbox* will add them (if you keep the same mbox output), resulting in one big mbox.
+
 Let's say you have a file named my_library.bib in your current directory. To convert it into an archive named my_archive.mbox, you would run:
 
 ```bash
-bibtex-to-mbox my_library.bib my_archive.mbox
+bibtex2mbox my_library.bib my_archive.mbox
 ```
 You will see the following output as the tool processes your file:
 
