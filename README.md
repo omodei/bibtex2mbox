@@ -17,8 +17,7 @@ A command-line utility to convert a BibTeX (`.bib`) file into an `mbox` email ar
 
 You can install the tool directly from PyPI using pip:
 
-```bash
-pip install bibtex2mbox
+```bash pip install bibtex2mbox```
 
 ## Usage
 
@@ -28,14 +27,14 @@ You can download a specific BibTeX file from the ADS site, selecting "BibTeX-ABS
 ### Command-Line Syntax
 
 ```bash
-bibtex2mbox [INPUT_BIB_FILE] [OUTPUT_MBOX_FILE]
+bibtex2mbox [INPUT_BIB_FILE] [OUTPUT_MBOX_FILE]```
 
 ### Example
 Let's say you have a file named my_library.bib in your current directory. To convert it into an archive named my_archive.mbox, you would run:
 
 ```bash
 bibtex-to-mbox my_library.bib my_archive.mbox
-
+```
 You will see the following output as the tool processes your file:
 
 ```bash
@@ -43,6 +42,7 @@ Found 150 entries in 'my_library.bib'. Starting conversion...
 Converting entries: 100%|██████████| 150/150 [00:00<00:00, 850.12entry/s]
 
 Successfully converted 150 entries into 'my_archive.mbox'.
+```
 The file my_archive.mbox will be created in your current directory.
 
 ## Importing the Mbox File into Email Clients
