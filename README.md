@@ -26,8 +26,9 @@ You can download a specific BibTeX file from the ADS site, selecting "BibTeX-ABS
 
 ### Command-Line Syntax
 
-```bash
-bibtex2mbox [INPUT_BIB_FILE] [OUTPUT_MBOX_FILE]```
+```bash 
+bibtex2mbox [INPUT_BIB_FILE] [OUTPUT_MBOX_FILE]
+```
 
 ### Example
 Let's say you have a file named my_library.bib in your current directory. To convert it into an archive named my_archive.mbox, you would run:
