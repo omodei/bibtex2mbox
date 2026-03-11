@@ -20,8 +20,6 @@ You can install the tool directly from PyPI using pip:
 ```bash
 pip install bibtex2mbox
 
----
-
 ## Usage
 
 The script is a command-line tool. You must provide the path to your input BibTeX file and the desired path for the output mbox file.
