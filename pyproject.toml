@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bibtex2mbox"  # IMPORTANT: This must be unique on PyPI!
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="YNicola Omodei", email="nicola.omodei@stanford.edu" },
 ]
